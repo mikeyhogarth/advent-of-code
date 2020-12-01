@@ -1,0 +1,23 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "repo for answers to 2020 https://adventofcode.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeyhogarth/advent-of-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeyhogarth/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/mikeyhogarth/advent-of-code#readme",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "lodash": "^4.17.20"
+  }
+}

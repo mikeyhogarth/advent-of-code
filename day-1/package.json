@@ -1,0 +1,14 @@
+{
+  "name": "day-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Run from parent folder'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "big-cartesian": "^2.0.0"
+  }
+}
