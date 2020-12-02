@@ -2,9 +2,7 @@
 module.exports = (input, schema) => {
   const validationFunction = schema === 1 ? validPassword1 : validPassword2;
   return input
-    .map(([rule, password]) => {
-      return validationFunction(password, rule) ? 1 : 0;
-    })
+    .map(([rule, password]) => (validationFunction(password, rule) ? 1 : 0))
     .reduce((total, value) => total + value);
 };
 
